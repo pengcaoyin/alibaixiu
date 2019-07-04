@@ -1,0 +1,156 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+.w {
+    width: 1258px;
+    margin: 0 auto;
+}
+
+.go {
+    font-size: 15px;
+}
+
+.from {
+    /* display: none; */
+    width: 1800px;
+    height: 700px;
+    margin: 0 auto;
+    background: url(../img/bg.jpg);
+    margin-top: 50px;
+}
+
+.from1 {
+    width: 500px;
+    height: 500px;
+    padding-top: 150px;
+    /* background-color: #666; */
+}
+
+.from1 ul {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.from1 ul li {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.from1 ul li img {
+    width: 25px;
+    height: 40px;
+}
+
+.btn {
+    margin-top: 30px;
+    margin-left: 35px;
+    overflow: hidden;
+}
+
+.btn p {
+    width: 400px;
+    height: 37px;
+    background: url(../img/btn2.png);
+    margin-top: 10px;
+}
+
+.btn input {
+    width: 390px;
+    height: 37px;
+    background-color: transparent;
+    border: none;
+    margin-left: 4px;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.btn1 {
+    position: relative;
+}
+
+.btn1 p {
+    width: 300px;
+    height: 37px;
+    margin-left: 35px;
+    margin-top: 10px;
+    background: url(../img/btn3.png);
+}
+
+.btn1 input {
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.btn1 #input {
+    width: 290px;
+    height: 37px;
+    background-color: transparent;
+    border: none;
+}
+
+.btn1 #code {
+    /*display: inline-table;*/
+    width: 100px;
+    height: 37px;
+    font-family: Arial, 宋体;
+    font-style: italic;
+    font-size: 20px;
+    color: green;
+    border: 0;
+    padding: 2px 3px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    position: absolute;
+    top: 0px;
+    right: 60px;
+}
+
+.btn2 {
+    width: 126px;
+    height: 40px;
+    background: url(../img/btn6.png);
+    margin-top: 60px;
+    margin-left: 35px
+}
+
+.btn2 input {
+    width: 126px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.btn2 a {
+    display: block;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 30px;
+}

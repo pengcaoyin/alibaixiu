@@ -1,0 +1,418 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    .w {
+        width: 1285px;
+        margin: 0 auto;
+    }
+    
+    .when {
+        color: #666;
+    }
+    
+    .when a {
+        text-decoration: none;
+        color: #666;
+    }
+    
+    .biaoti ul {
+        overflow: hidden;
+        width: 260px;
+        margin: 0 auto;
+        margin: 50px auto;
+    }
+    
+    .biaoti ul li {
+        float: left;
+        margin: 0 5px;
+        list-style: none;
+        height: 40px;
+        line-height: 40px;
+        font-size: 25px;
+        font-weight: 500;
+        overflow: hidden;
+    }
+    
+    .biaoti ul li img {
+        width: 25px;
+        height: 40px;
+    }
+    
+    .braeea {
+        position: relative;
+    }
+    
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .swiper-slide {
+        position: relative;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    
+    .swiper-container-v {
+        background: #eee;
+    }
+    
+    .img {
+        position: absolute;
+        top: 15px;
+        left: 50px;
+    }
+    
+    .braeea1 {
+        width: 395px;
+        height: 516px;
+        background: rgba(0, 0, 0, .3);
+        position: absolute;
+        top: 0px;
+        right: 12px;
+        z-index: 999;
+    }
+    
+    .braeea1 .yuankan {
+        width: 300px;
+        height: 300px;
+        border-left: 1px solid #eee;
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    
+    .braeea1 .ks {
+        width: 400px;
+        height: 300px;
+        position: relative;
+    }
+    
+    .braeea1 .ks h4:nth-child(1) {
+        position: absolute;
+        top: -2px;
+        left: 35px;
+        color: #eee;
+    }
+    
+    .braeea1 .ks h4:nth-child(3) {
+        position: absolute;
+        bottom: 0px;
+        left: 35px;
+        color: #eee;
+    }
+    
+    .braeea1 .yuankan:before {
+        content: '';
+        display: block;
+        width: 15px;
+        height: 15px;
+        background-color: #eee;
+        color: #eee;
+        border-radius: 50%;
+        position: absolute;
+        left: 23px;
+    }
+    
+    .braeea1 .yuankan:after {
+        content: '';
+        display: block;
+        width: 15px;
+        height: 15px;
+        background-color: #eee;
+        color: #eee;
+        border-radius: 50%;
+        position: absolute;
+        left: 23px;
+        bottom: 0px;
+    }
+    
+    .braeea1 .yuankan ul {
+        position: absolute;
+        left: 50px;
+        overflow: hidden;
+        margin-top: 30px;
+    }
+    
+    .braeea1 .yuankan ul li {
+        margin-top: 8px;
+        list-style: none;
+    }
+    
+    .braeea1 .yuankan ul li a {
+        color: #eee;
+    }
+    
+    .braeea1 .yuankan ul li a:hover {
+        color: #B9905A;
+    }
+    
+    .gonggao {
+        margin: 20px auto;
+        overflow: hidden;
+    }
+    
+    .gonggao ul li {
+        float: left;
+        list-style: none;
+    }
+    
+    .gonggao ul li:nth-child(2) {
+        width: 1240px;
+        height: 40px;
+    }
+    
+    .fangshi {
+        overflow: hidden;
+    }
+    
+    .fangshi .jianjie {
+        width: 839px;
+        height: 562px;
+        background: url(../img/bg10.jpg);
+        float: left;
+    }
+    
+    .fangshi .fangsh {
+        width: 430px;
+        height: 562px;
+        background: url(../img/3.png);
+        float: right;
+    }
+    
+    .jianjie input {
+        margin-top: 40px;
+        margin-left: 50px;
+        width: 126px;
+        height: 40px;
+        background: url(../img/btn6.png);
+        border: transparent;
+        font-size: 15px;
+        color: #eee;
+        outline: none;
+    }
+    
+    .jianjie2 {
+        display: none;
+        overflow: hidden;
+    }
+    
+    .jianjie2 .swiper-slide {
+        font-size: 18px;
+        height: auto;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 30px;
+        background: rgba(0, 0, 0, .1);
+        color: #eee;
+    }
+    
+    .jianjie2 .swiper-slide p {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    
+    .jianjie2 .swiper-container {
+        margin-top: 25px;
+        width: 800px;
+        height: 450px;
+    }
+    
+    .jianjie1 .swiper-slide p {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    
+    .jianjie1 .swiper-container {
+        margin-top: 25px;
+        width: 800px;
+        height: 450px;
+    }
+    
+    .jianjie1 .swiper-slide {
+        font-size: 18px;
+        height: auto;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 30px;
+        background: rgba(0, 0, 0, .1);
+        color: #eee;
+    }
+    
+    .fangsh input {
+        margin-top: 40px;
+        margin-left: 60px;
+        width: 126px;
+        height: 40px;
+        background: url(../img/btn6.png);
+        border: transparent;
+        font-size: 15px;
+        color: #eee;
+        outline: none;
+    }
+    
+    .fangsh .fangsh1 {
+        margin: 10px auto;
+        width: 351px;
+        height: 100%;
+        color: #eee;
+        overflow: hidden;
+        display: none;
+    }
+    
+    .fangsh .fangsh1 .as {
+        margin: 40px auto;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #B9905A;
+    }
+    
+    .fangsh .fangsh1 .as1 {
+        margin: 40px auto;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #B9905A;
+    }
+    
+    .fangsh .fangsh1 .as1 a {
+        color: #E9D8C4;
+    }
+    
+    .fangsh .fangsh2 {
+        margin: 10px auto;
+        width: 351px;
+        height: 100%;
+        color: #eee;
+    }
+    
+    .fangsh .fangsh2 div {
+        margin: 15px auto;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #B9905A;
+    }
+    
+    #pageNav {
+        display: inline-block;
+    }
+    
+    #pageNav a {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #000;
+        margin-right: 10px;
+        text-decoration: none;
+        background: #fff;
+    }
+    
+    #pageNav a.active,
+    #pageNav a:hover {
+        background: #B9905A;
+        border-radius: 50px;
+        color: #fff;
+    }
+    
+    .fenye {
+        margin-top: 50px;
+        height: 500px;
+        border: 0px solid #000;
+    }
+    
+    #pageMain li {
+        height: 60px;
+    }
+    
+    #pageMain li ul {
+        width: 620px;
+        height: 55px;
+        border-bottom: 1px solid #B9905A;
+        float: left;
+    }
+    
+    #pageMain li ul li {
+        float: left;
+        width: 200px;
+        height: 50px;
+        border: 0px solid;
+        padding-top: 5px;
+    }
+    
+    #pageMain li ul .fy2 {
+        margin-left: 210px;
+    }
+    
+    #pageMain li ul .fy2 img {
+        float: right;
+    }
+    
+    #pageMain li ul .fy1 img {
+        margin-top: 10px;
+        float: left;
+    }
+    
+    #pageMain li ul .fy1 h3 {
+        margin-top: 5px;
+        float: left;
+    }
+    
+    #pageMain li .fyone {
+        margin-left: 40px;
+    }
+    
+    #pageMain li .fyone .fy3 {
+        float: left;
+        width: 200px;
+        height: 50px;
+        border: 0px solid;
+        padding-top: 5px;
+    }
+    
+    #pageMain li ul .fy4 {
+        margin-left: 210px;
+    }
+    
+    #pageMain li ul .fy4 img {
+        float: right;
+    }
+    
+    #pageMain li ul .fy3 img {
+        margin-top: 10px;
+        float: left;
+    }
+    
+    #pageMain li ul .fy3 h3 {
+        margin-top: 5px;
+        float: left;
+    }
+    
+    .anniu {
+        margin-top: 20px;
+        margin-left: 400px;
+    }
+    
+    #prev img {
+        margin-top: 5px;
+    }
+    
+    #next img {
+        margin-top: 5px;
+    }
